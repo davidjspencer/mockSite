@@ -22,7 +22,7 @@ body {
 
 @media screen and (max-width: 730px) {
   h1, h2 {
-    color: #8E63A3;
+    /*color: $highlight-one;*/
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -48,12 +48,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-size: 0.8em; } }
 /*   ********    */
 @media screen and (min-width: 730px) {
   h1, h2 {
-    color: #8E63A3;
+    /*color: $highlight-one;*/
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -83,7 +83,8 @@ body {
     font-size: 1.1em; } }
 /* END screen > 730px  */
 #change {
-  background-color: rgba(200, 200, 200, 0.5); }
+  background-color: rgba(200, 200, 200, 0.5);
+  color: #8E63A3; }
   #change:focus {
     outline: none; }
 
